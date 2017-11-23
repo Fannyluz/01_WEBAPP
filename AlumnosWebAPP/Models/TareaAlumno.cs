@@ -19,6 +19,7 @@ namespace AlumnosWebAPP.Models
         public int Calificacion { get; set; }
         public bool Evaluado { get; set; }
         public virtual Tarea Tarea { get; set; }
-        public virtual Alumno Alumno { get; set; }
+        public virtual Alumno Alumno { get; set; }
+
     }
 }
